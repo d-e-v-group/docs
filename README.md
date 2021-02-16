@@ -18,3 +18,10 @@ https://en.wikipedia.org/wiki/Don%27t_repeat_yourself
 - Flexible w approach
 - Helper classes
 - Sematntic 
+
+
+- CSS margin bottom
+- CSS media queries within rules
+
+## Font Families
+
