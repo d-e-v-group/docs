@@ -5,8 +5,8 @@
   
 ### Naming Things
 
-### Bullet Proof
-
+### Bullet Proofing / scalibility
+- Ensure lack of content wont leave empty spaces
 ### File organizing
 
 DRY / KIS
