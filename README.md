@@ -4,6 +4,8 @@
 - Avoid coding <p> tags
   
 ### Naming Things
+- Have design / wires define section names
+- `<div class="semantic-name helper-class-1 helper-class-2 js-element">`
 
 ### Bullet Proofing / scalibility
 - Ensure lack of content wont leave empty spaces
@@ -24,4 +26,5 @@ https://en.wikipedia.org/wiki/Don%27t_repeat_yourself
 - CSS media queries within rules
 
 ## Font Families
+
 
