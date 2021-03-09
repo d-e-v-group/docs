@@ -53,16 +53,16 @@ Better! Regular are bold are in the same family.
 Now we can acccess the bold vaiant by simply setting font-weight: bold;
 */
 @font-face {
-  font-family: 'Object-Sans-Regular';
+  font-family: 'Object-Sans';
   src: url('/fonts/ObjectSans-Regular.woff');
   font-weight: 400;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'Object-Sans-Regular';
+  font-family: 'Object-Sans';
   src: url('/fonts/ObjectSans-Bold.woff');
-  font-weight: 400;
+  font-weight: Bold;
   font-style: normal;
 }
 ```
