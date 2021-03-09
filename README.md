@@ -27,6 +27,25 @@ https://en.wikipedia.org/wiki/Don%27t_repeat_yourself
 
 ## Font Families
 ```css
+// Not ideal, creating a new "family" for bold
+@font-face {
+  font-family: 'Object-Sans-Regular';
+  src: url('/fonts/ObjectSans-Regular.woff');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Object-Sans-Bold';
+  src: url('/fonts/ObjectSans-Bold.woff');
+  font-weight: 400;
+  font-style: normal;
+}
+
+```
+
+```css
+// Better! Regular are bold are in the same family.
 @font-face {
   font-family: 'Object-Sans-Regular';
   src: url('/fonts/ObjectSans-Regular.woff');
@@ -40,22 +59,6 @@ https://en.wikipedia.org/wiki/Don%27t_repeat_yourself
   font-weight: 400;
   font-style: normal;
 }
-
-
-@font-face {
-  font-family: 'Object-Sans-Bold';
-  src: url('/fonts/ObjectSans-Bold.woff');
-  font-weight: 400;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Maelstrom-Sans-Regular';
-  src: url('/fonts/maelstrom-sans-web-bold.woff');
-  font-weight: 400;
-  font-style: normal;
-}
-
 ```
 
 [link to Wiki!](https://github.com/d-e-v-group/docs/wiki)
