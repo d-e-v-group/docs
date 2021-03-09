@@ -26,6 +26,36 @@ https://en.wikipedia.org/wiki/Don%27t_repeat_yourself
 - CSS media queries within rules
 
 ## Font Families
+```css
+@font-face {
+  font-family: 'Object-Sans-Regular';
+  src: url('/fonts/ObjectSans-Regular.woff');
+  font-weight: 400;
+  font-style: normal;
+}
 
+@font-face {
+  font-family: 'Object-Sans-Regular';
+  src: url('/fonts/ObjectSans-Bold.woff');
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'Object-Sans-Bold';
+  src: url('/fonts/ObjectSans-Bold.woff');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Maelstrom-Sans-Regular';
+  src: url('/fonts/maelstrom-sans-web-bold.woff');
+  font-weight: 400;
+  font-style: normal;
+}
+
+```
 
 [link to Wiki!](https://github.com/d-e-v-group/docs/wiki)
