@@ -27,7 +27,10 @@ https://en.wikipedia.org/wiki/Don%27t_repeat_yourself
 
 ## Font Families
 ```css
-// Not ideal, creating a new "family" for bold
+/*
+Not ideal, We're creating a new "family" for bold.
+*/
+
 @font-face {
   font-family: 'Object-Sans-Regular';
   src: url('/fonts/ObjectSans-Regular.woff');
@@ -45,7 +48,10 @@ https://en.wikipedia.org/wiki/Don%27t_repeat_yourself
 ```
 
 ```css
-// Better! Regular are bold are in the same family.
+/*
+Better! Regular are bold are in the same family.
+Now we can acccess the bold vaiant by simply setting font-weight: bold;
+*/
 @font-face {
   font-family: 'Object-Sans-Regular';
   src: url('/fonts/ObjectSans-Regular.woff');
